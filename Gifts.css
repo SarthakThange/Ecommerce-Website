@@ -1,0 +1,255 @@
+body {
+    /* background-color: white; */
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+
+/* Header */
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    background-color: rgba(254, 215, 186, 1);
+    padding: 22px;
+
+}
+
+nav ul li a {
+    font-size: 24px;
+    margin-inline: 28px;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav ul {
+    margin-left: -10px;
+    margin-top: 6px;
+    justify-content: left;
+    display: flex;
+}
+
+.logo img {
+    height: 50px;
+    margin-bottom: -30px;
+    display: flex;
+    margin-left: 350px;
+    justify-content: center;
+}
+
+.icon {
+    margin-left: 400px;
+    justify-content: center;
+}
+
+.icon img {
+margin-left: 60px;
+}
+
+/* Gifting Guide */
+
+.Home-I img {
+    margin-top: 94px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+
+/* Gifts */
+
+
+.Gifts-1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Gifts-1 .card {
+    margin-inline: 44px;
+    text-align: center;
+    margin-top: 68px;
+}
+
+.Gifts-1 .card h1 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    margin-top: -4px;
+    padding: 10px;
+}
+
+.Gifts-1 .card h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* Gifts-2 */
+.Gifts-2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.Gifts-2 .card {
+    margin-inline: 44px;
+    text-align: center;
+    margin-top: 68px;
+}
+
+.Gifts-2 .card h1 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    margin-top: -4px;
+    padding: 10px;
+}
+
+.Gifts-2 .card h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Wrap */
+.wrap {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.wrap img {
+    margin-top: 44px;
+    width: 1585px;
+    margin-bottom: 45px;
+}
+
+
+/* Background */
+.home,
+.Gifts,
+.wrap {
+    background-color: rgba(254, 215, 186, 1);
+    background-size: cover;
+}
+
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding-inline: 20px;
+    align-content: center;
+}
+
+.footer-column {
+    min-width: 200px;
+    margin: 10px;
+}
+
+
+.footer-column h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgba(139, 0, 0, 1);
+    font-weight: 600;
+}
+
+.footer-column p {
+    margin: 5px 0;
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+
+.footer-column p span {
+    margin-inline: 6px;
+}
+
+/*footer-Location */
+
+.Location {
+    display: flex;
+}
+
+.Location h1 {
+    font-size: 30px;
+    margin-left: 26px;
+    color: rgba(139, 0, 0, 1);
+}
+
+.Path iframe {
+    margin-left: 26px;
+    margin-bottom: 44px;
+}
+
+
+/* Follow */
+.Follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Follow h1{
+    color: rgba(139, 0, 0, 1);
+    font-family: sans-serif;
+}
+
+.Follow img {
+    margin-inline: 22px;
+}
+
+
+.footer,
+.Location,
+.Path, .Follow {
+    background-image: url(Shop/Footer\ I.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Links */
+.footer-column p a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Last */
+.Last {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(254, 215, 186, 1);
+    color: rgba(139, 0, 0, 1);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+}

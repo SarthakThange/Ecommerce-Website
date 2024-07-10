@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .left {
+    width: 50%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .right {
+    width: 40%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .right p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .right input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .right button.verify {
+    width: 28%;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .right button.verify:hover {
+    opacity: 0.8;
+  }
+  
+  .right button {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .right button:hover {
+    opacity: 0.8;
+  }
+  
+  .right.checkbox {
+    margin-bottom: 20px;
+  }
+  
+  .right.checkbox input {
+    margin-right: 5px;
+  }
+  
+  .right.login-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .right.login-link a {
+    color: #f44336;
+    text-decoration: none;
+  }
+  
+  .right.login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .right.close-button {
+    position: absolute;
+  }

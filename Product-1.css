@@ -1,0 +1,536 @@
+body {
+    /* background-color: white; */
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+
+/* Header */
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    background-color: rgba(254, 215, 186, 1);
+    padding: 22px;
+
+}
+
+nav ul li a {
+    font-size: 24px;
+    margin-inline: 28px;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav ul {
+    margin-left: -10px;
+    margin-top: 6px;
+    justify-content: left;
+    display: flex;
+}
+
+.logo img {
+    height: 50px;
+    margin-bottom: -30px;
+    display: flex;
+    margin-left: 350px;
+    justify-content: center;
+}
+
+
+/* Home */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Cata */
+
+.col-1 {
+    float: left;
+    width: 30%;
+    /* padding: 10px; */
+    height: 700px;
+    margin-top: 80px;
+}
+
+
+.col-1 .cata {
+    font-size: 28px;
+    margin-inline: 28px;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.col-1 .cata li a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.col-1 .cata h1 {
+    font-size: 48px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-inline: 38px;
+}
+
+.col-1 .cata li h2 {
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+/* cata-2 */
+.col-1 .cata-2 {
+    margin-inline: 28px;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+.col-1 .cata-2 li a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    display: table;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.col-1 .cata-2 li h2 {
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* cata-3 */
+.col-1 .cata-3 {
+    margin-inline: 28px;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.col-1 .cata-3 li a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    display: table;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.col-1 .cata-3 li h2 {
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* cata-4 */
+.col-1 .cata-4 {
+    margin-inline: 28px;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.col-1 .cata-4 li a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    display: table;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.col-1 .cata-4 li h2 {
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* cata-5 */
+.col-1 .cata-5 {
+    margin-inline: 28px;
+    text-decoration: none;
+    color: white;
+}
+
+.col-1 .cata-5 li a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+.col-1 .cata-5 li h2 {
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    display: table;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+/* Best Sellers */
+.col-2 {
+    float: left;
+    width: 70%;
+    /* padding: 10px; */
+    height: 1500px;
+    background-color: rgba(254, 215, 186, 1);
+    margin-top: 80px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.col-2 .home .hometext h1 {
+    background-size: 3000px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+
+}
+
+
+/* Shop > Products */
+.Products-H {
+    display: flex;
+    text-align: left;
+}
+
+
+
+
+
+.Products-H h1 {
+    text-align: left;
+    margin-left: 57px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 36px;
+}
+
+.shop-products {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.shop-products .card {
+    margin-inline: 22px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
+.shop-products .card h1 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.shop-products .card h2 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: -20px;
+}
+
+.shop-products .card h3 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.shop-products .card h2,
+h3 {
+    background-color: rgba(217, 217, 217, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: 500;
+
+}
+
+/* Coin */
+.Coin {display: flex;
+    text-align: left;
+    margin-top: 120px;
+}
+
+.Coin h1 {
+    display: flex;
+    text-align: left;
+    margin-left: 53px;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 500px;
+    line-height: 54px;
+}
+
+.Coin h2{
+    margin-left: 911px;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 500px;
+}
+
+.Coin h2 a{
+text-decoration: none;
+color: black;
+font-weight: 500px;
+}
+
+.Coin-products {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.Coin-products .card {
+    margin-inline: 22px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
+
+.Coin-products .card h2 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: -20px;
+}
+
+.Coin-products .card h3 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.Coin-products .card h2,
+h3 {
+    background-color: rgba(217, 217, 217, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: 500;
+
+}
+
+
+
+/* Biscuite */
+.Biscute {
+    display: flex;
+    text-align: left;
+    margin-top: 120px;
+}
+
+.Biscute h2{
+    margin-left: 866px;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 500px;
+}
+
+.Biscute h1 {
+    display: flex;
+    text-align: left;
+    margin-left: 53px;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 500px;
+    line-height: 54px;
+}
+
+.Biscute-products {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.Biscute-products .card {
+    margin-inline: 22px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
+
+.Biscute-products .card h2 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: -20px;
+}
+
+.Biscute-products .card h3 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.Biscute-products .card h2,
+h3 {
+    background-color: rgba(217, 217, 217, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: 500;
+
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    align-content: center;
+}
+
+.footer-column {
+    min-width: 200px;
+    margin: 10px;
+}
+
+
+.footer-column h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgba(139, 0, 0, 1);
+    font-weight: 600;
+}
+
+.footer-column p {
+    margin: 5px 0;
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+
+.footer-column p span {
+    margin-inline: 6px;
+}
+
+.footer {
+    background-image: url(Shop/Footer\ I.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*footer-Location */
+
+.Location {
+    display: flex;
+}
+
+.Location h1 {
+    font-size: 30px;
+    margin-left: 26px;
+    color: rgba(139, 0, 0, 1);
+}
+
+.Path iframe {
+    margin-left: 26px;
+    margin-bottom: 44px;
+}
+
+
+/* Follow */
+.Follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Follow h1{
+    color: rgba(139, 0, 0, 1);
+    font-family: sans-serif;
+}
+
+.Follow img {
+    margin-inline: 22px;
+}
+
+
+.footer,
+.Location,
+.Path, .Follow {
+    background-image: url(Shop/Footer\ I.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Last */
+.Last {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(254, 215, 186, 1);
+    color: rgba(139, 0, 0, 1);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+}

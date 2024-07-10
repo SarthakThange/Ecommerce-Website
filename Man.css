@@ -1,0 +1,348 @@
+body {
+    /* background-color: white; */
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+
+/* Header */
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    background-color: rgba(254, 215, 186, 1);
+    padding: 22px;
+
+}
+
+nav ul li a {
+    font-size: 24px;
+    margin-inline: 28px;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav ul {
+    margin-left: -10px;
+    margin-top: 6px;
+    justify-content: left;
+    display: flex;
+}
+
+.logo img {
+    height: 50px;
+    margin-bottom: -30px;
+    display: flex;
+    margin-left: 350px;
+    justify-content: center;
+}
+
+.icon {
+    margin-left: 400px;
+    justify-content: center;
+}
+
+.icon img {
+margin-left: 60px;
+}
+
+
+
+/* 
+ Men Shop Section */
+
+
+.Men-1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Men .Men-1 .card {
+    margin-top: 168px;
+    margin-inline: 26px;
+    text-align: center;
+}
+
+.Men-1 .card h1 {
+    font-size: 24px;
+    line-height: 29.05px;
+    font-family: "Poppins", sans-serif;
+}
+
+.Men-1 .card h2 {
+    font-size: 25px;
+    line-height: 30.50px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -4px;
+    color: rgba(75, 4, 166, 1);
+}
+
+
+
+
+
+/* Men Shop -2 */
+
+
+.Men-2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Men-2 .card {
+    margin-inline: 26px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Men-2 .card h1 {
+    font-size: 24px;
+    line-height: 29.05px;
+    font-family: "Poppins", sans-serif;
+}
+
+.Men-2 .card h2 {
+    font-size: 25px;
+    line-height: 30.50px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -4px;
+    color: rgba(75, 4, 166, 1 );
+}
+
+
+
+
+/* Men Shop -3 */
+
+
+.Men-3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Men-3 .card {
+    margin-inline: 26px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Men-3 .card h1 {
+    font-size: 24px;
+    line-height: 29.05px;
+    font-family: "Poppins", sans-serif;
+}
+
+.Men-3 .card h2 {
+    color: rgba(75, 4, 166, 1);
+    font-size: 25px;
+    line-height: 30.50px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -4px;
+
+}
+
+/* Background Color */
+.Men {
+    height: 2600px;
+    background-color: rgba(254, 215, 186, 1);
+    background-size: cover;
+}
+
+.Men .Men-1 .card,
+.Men .Men-2 .card,
+.Men .Men-3 .card {
+    background-color:
+        rgba(217, 217, 217, 1);
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-inline: 26px
+}
+
+
+
+
+
+
+/* banner-left */
+.Banner-Left {
+
+    margin-top: 94px;
+    background-color: rgba(214, 203, 203, 1);
+    border: 2px solid;
+    border-color: black;
+    border-radius: 12px;
+    max-width: 600px;
+    padding: 53px;
+    margin-left: 88px;
+    text-align: justify;
+    padding-inline: 126px;
+}
+
+.Banner-Left h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.Banner-Left p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.Banner-Left img{
+    position: absolute;
+    margin-top: -378px;
+    margin-left: 476px;
+}
+
+/* banner-Right */
+.Banner-Right {
+
+    margin-top: 94px;
+    background-color: rgba(224, 196, 196, 0.8);
+    border: 2px solid;
+    border-color: black;
+    border-radius: 12px;
+    max-width: 600px;
+    padding: 53px;
+    margin-right: 88px;
+    text-align: justify;
+    float: right;
+    padding-inline: 172px;
+}
+
+.Banner-Right h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.Banner-Right p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.Banner-Right img{
+    position: absolute;
+    margin-top: -351px;
+    margin-left: -273px;
+}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    align-content: center;
+}
+
+.footer-column {
+    min-width: 200px;
+    margin: 10px;
+}
+
+
+.footer-column h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgba(139, 0, 0, 1);
+    font-weight: 600;
+}
+
+.footer-column p {
+    margin: 5px 0;
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+
+.footer-column p span {
+    margin-inline: 6px;
+}
+
+.footer {
+    background-image: url(Shop/Footer\ I.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*footer-Location */
+
+.Location {
+    display: flex;
+}
+
+.Location h1 {
+    font-size: 30px;
+    margin-left: 26px;
+    color: rgba(139, 0, 0, 1);
+}
+
+.Path iframe {
+    margin-left: 26px;
+    margin-bottom: 44px;
+}
+
+/* Follow */
+.Follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Follow h1{
+    color: rgba(139, 0, 0, 1);
+    font-family: sans-serif;
+}
+
+.Follow img {
+    margin-inline: 22px;
+}
+
+
+
+.footer,
+.Location,
+.Path, .Follow {
+    background-image: url(Shop/Footer\ I.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Last */
+.Last {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(254, 215, 186, 1);
+    color: rgba(139, 0, 0, 1);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+}
